@@ -1,0 +1,14 @@
+workflows:
+  ios-build:
+    name: iOS Build
+    scripts:
+      - name: Install dependencies
+        script: |
+          # Add any commands to install dependencies here
+          echo "No dependencies to install"
+      - name: Build
+        script: |
+          # Add the build command for your app
+          echo "Building the app"
+    artifacts:
+      - build/Halsokollen.ipa
